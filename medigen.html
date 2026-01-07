@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediGenisis - Online Medicine Hub 2026 💊🌟</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f0f8ff; color:#222; line-height:1.6; }
+        header { background: linear-gradient(135deg, #28a745, #20c997); color:white; text-align:center; padding:60px 20px; }
+        .container { max-width:1200px; margin:30px auto; padding:0 20px; }
+        .section { background:white; padding:30px; margin:25px 0; border-radius:12px; box-shadow:0 5px 20px rgba(0,0,0,0.1); }
+        h1, h2 { margin:0; color:#155724; }
+        ul { list-style:none; padding:0; display:grid; grid-template-columns:repeat(auto-fit, minmax(250px,1fr)); gap:18px; }
+        li { padding:16px; background:#e6fffa; border-radius:10px; text-align:center; font-weight:500; box-shadow:0 2px 8px rgba(0,0,0,0.05); }
+        .login-box { max-width:420px; margin:80px auto; padding:50px; background:white; border-radius:16px; box-shadow:0 12px 50px rgba(0,0,0,0.15); text-align:center; }
+        input, button { width:100%; padding:15px; margin:12px 0; border-radius:8px; font-size:17px; border:2px solid #ccc; box-sizing:border-box; }
+        button { background:#0d6efd; color:white; border:none; cursor:pointer; font-weight:bold; transition:0.3s; }
+        button:hover { background:#0b5ed7; }
+        .hidden { display:none !important; }
+        .error { color:#dc3545; font-weight:bold; margin-top:10px; }
+        a { color:#0d6efd; text-decoration:none; font-weight:bold; }
+        footer { text-align:center; padding:20px; background:#28a745; color:white; margin-top:40px; }
+    </style>
+</head>
+<body>
+
+    <!-- LOGIN SCREEN -->
+    <div id="loginPage">
+        <div class="login-box">
+            <h2>Welcome to MediGenisis 2026 🌿💉</h2>
+            <p>Login to discover health info & popular medicines! 😊</p>
+            
+            <form id="loginForm">
+                <input type="text" id="username" placeholder="Username" required autocomplete="off">
+                <input type="password" id="password" placeholder="Password" required autocomplete="off">
+                <button type="submit">Login Now 🚀</button>
+                <div id="errorMsg" class="error"></div>
+            </form>
+
+            <div style="margin-top:30px;">
+                New here? <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAaY5ZW5UMk02QjhaWktUR0kyNVIxQ0FWWFRDVldJUS4u" target="_blank">Register here 📝</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="mainContent" class="hidden">
+        <header>
+            <h1>MediGenisis - Your Trusted Health Companion 2026 💚🩺</h1>
+            <p>Explore common conditions & most prescribed medicines worldwide ✨</p>
+        </header>
+
+        <div class="container">
+            <div class="section">
+                <h2>Top Health Conditions & Diseases 2025-2026 🩺🔥</h2>
+                <ul>
+                    <li>Ischemic Heart Disease / Coronary Artery Disease ❤️</li>
+                    <li>Stroke & Cerebrovascular Diseases 🧠</li>
+                    <li>Seasonal Flu & Influenza Variants 🌡️</li>
+                    <li>COVID-19 (New Variants) 😷</li>
+                    <li>Chronic Obstructive Pulmonary Disease (COPD) 🫁</li>
+                    <li>Lower Respiratory Infections / Pneumonia 🌬️</li>
+                    <li>Diabetes Type 2 & Pre-diabetes 🍎</li>
+                    <li>Hypertension / High Blood Pressure ❤️</li>
+                    <li>Alzheimer’s Disease & Dementia 🧓</li>
+                    <li>Chronic Kidney Disease 🩸</li>
+                    <li>Cancer (Various Types) 🧬</li>
+                    <li>Tuberculosis (TB) 🦠</li>
+                    <li>Dengue Fever 🦟</li>
+                    <li>Hepatitis B & C 🩺</li>
+                    <li>PCOS & Hormonal Imbalance (Women) 🌸</li>
+                    <li>Thyroid Disorders (Hypo/Hyper) 🦋</li>
+                    <li>Acid Reflux / GERD / Acidity 🤢</li>
+                    <li>Anxiety & Depression 😔</li>
+                    <li>Vitamin D Deficiency ☀️</li>
+                    <li>Arthritis & Joint Pain 🦴</li>
+                    <li>Asthma & Allergic Conditions 🌼</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>Most Prescribed & Popular Medicines 2025-2026 💊📈</h2>
+                <ul>
+                    <li>Atorvastatin (Lipitor) - Cholesterol 🫀</li>
+                    <li>Metformin - Diabetes 🍬</li>
+                    <li>Levothyroxine (Synthroid) - Thyroid 🦋</li>
+                    <li>Lisinopril - Blood Pressure ❤️</li>
+                    <li>Amlodipine - Blood Pressure ❤️</li>
+                    <li>Amoxicillin - Antibiotic 🦠</li>
+                    <li>Azithromycin - Antibiotic 💉</li>
+                    <li>Omeprazole / Pantoprazole - Acidity 🥄</li>
+                    <li>Losartan - Blood Pressure ❤️</li>
+                    <li>Albuterol (Ventolin) - Asthma Inhaler 🌬️</li>
+                    <li>Paracetamol / Acetaminophen (Dolo) 🩹</li>
+                    <li>Ibuprofen - Pain & Inflammation 🔥</li>
+                    <li>Montelukast (Singulair) - Allergy 🌸</li>
+                    <li>Telmisartan - Blood Pressure ❤️</li>
+                    <li>Gabapentin - Nerve Pain / Seizures 🧠</li>
+                    <li>Hydrochlorothiazide - Diuretic 💧</li>
+                    <li>Clopidogrel - Blood Thinner 🩸</li>
+                    <li>Furosemide (Lasix) - Diuretic 💦</li>
+                    <li>Sertraline (Zoloft) - Depression 😊</li>
+                    <li>Escitalopram (Lexapro) - Anxiety 😌</li>
+                </ul>
+            </div>
+        </div>
+
+        <footer>
+            <p>MediGenisis © 2026 • Stay Healthy! 💪😊</p>
+        </footer>
+    </div>
+
+    <!-- LOGIN LOGIC -->
+    <script>
+        // ★★★ ADD/CHANGE USERS HERE ★★★ (very easy!)
+        const users = [
+            { username: "admin", password: "123456" },
+            { username: "user1", password: "user123" },
+            { username: "rahul", password: "rahul2026" },
+            { username: "priya", password: "priya@health" },
+            { username: "doctor", password: "doc2026" },
+            { username: "test", password: "test123" },
+            // Add more like this ↓↓↓
+            // { username: "newuser", password: "pass2026" },
+        ];
+
+        const loginForm = document.getElementById("loginForm");
+        const errorMsg = document.getElementById("errorMsg");
+
+        loginForm.addEventListener("submit", function(e) {
+            e.preventDefault();
+            const username = document.getElementById("username").value.trim();
+            const password = document.getElementById("password").value.trim();
+
+            const validUser = users.find(u => u.username === username && u.password === password);
+
+            if (validUser) {
+                document.getElementById("loginPage").classList.add("hidden");
+                document.getElementById("mainContent").classList.remove("hidden");
+                errorMsg.textContent = ""; // clear error
+            } else {
+                errorMsg.textContent = "❌ Wrong username or password! Try again 😔";
+            }
+        });
+    </script>
+</body>
+</html>
